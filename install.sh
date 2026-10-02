@@ -155,7 +155,7 @@ fi
 # ── Fix Hardcoded Paths ───────────────────────────────────────
 log "Fixing hardcoded paths..."
 find "$CONFIG_DIR" -type f \( -name "*.css" -o -name "*.kdl" -o -name "*.toml" -o -name "*.ini" -o -name "*.sh" -o -name "*.jsonc" -o -name "*.json" -o -name "bookmarks" -o -name "*.conf" -o -name "layout" -o -name "flameshot.ini" -o -name "*.tres" \) \
-    -exec sed -i "s|__HOME__|$HOME|g" {} \; 2>/dev/null || true
+    -exec sed -i "s|/home/sanjeet|$HOME|g" {} \; 2>/dev/null || true
 
 # ── Set Fish as Default Shell ──────────────────────────────────
 if [ "$SHELL" != "/usr/bin/fish" ]; then

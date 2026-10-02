@@ -30,5 +30,9 @@ button:hover {
 }
 
 window {
-    background: linear-gradient(rgba(15, 15, 20, 0.95), rgba(24, 24, 37, 0.95));
+    background-image: url("file:///home/sanjeet/Pictures/wallpapers/forest_dark_winter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #0f0f14;
 }

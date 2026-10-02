@@ -65,3 +65,5 @@ mozilla/
 *.deb
 *.rpm
 *.AppImage
+fish/fish_variables
+vlc/vlc-qt-interface.conf
